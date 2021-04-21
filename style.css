@@ -1,0 +1,117 @@
+h1, h2, h3 {
+  font-family: monospace;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 36px 0 36px 0;
+}
+
+body {
+  margin: 36px 0 36px 0;
+}
+
+header {
+  margin: 36px 36px 36px 36px;
+}
+
+img {
+  margin: 0 36px 0 0;
+}
+
+main {
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+span a {
+  font-size: inherit;
+  background: transparent url(img/link.png) center left no-repeat;
+  padding-left: 18px;
+}
+
+h2 {
+  font-size: 24px;
+  padding-top: 64px;
+}
+
+h2 a:hover::after {
+  content: '#';
+}
+
+h2 a {
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+h2 a:visited {
+  color: inherit;
+  font-family: inherit;
+}
+
+.wrapper {
+  padding: 0 36px 36px 36px;
+  box-shadow: 0 0 4px 0px black;
+}
+
+p, ol, ul, label, a, span {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+p a, li a {
+  background: transparent url(img/link.png) center left no-repeat;
+  padding-left: 18px;
+}
+
+a {
+  color: #4861AD;
+}
+
+a:visited {
+  color: #502380;
+}
+
+.tooltip {
+  display: inline;
+  position: relative;79
+}
+
+.tooltip .tooltiptext {
+  font-size: 12px;
+  width: 300px;
+  visibility: hidden;
+  background-color: #F8F9F9;
+  color: black;
+  border-color: #790002;
+  border-left-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  padding: 12px 12px 12px 12px;
+  left: 100%;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+span a {
+  background: inherit;
+  padding-left: 0;
+}
+
+.doc_container {
+  margin-top: 18px;
+}
